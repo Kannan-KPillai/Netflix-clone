@@ -1,0 +1,48 @@
+.body{
+    width: 100vw;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 12px 0;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    transition: all 1s ease;
+    z-index: 100;
+}
+.scrolled{
+    background-color: rgba(3, 3, 3, 0.539);
+}
+.logo{
+     
+    /* padding-left: 10rem; */
+    width:100px;
+}
+.avatar{
+    
+    /* right:20px; */
+    width:40px;
+}
+.caption1{
+    color: white;
+    padding-left: 20rem;
+}
+.caption2{
+    color: white;
+
+}
+.caption3{
+    color: white;
+}
+.caption4{
+    color:white;
+    padding-right:35rem
+}
+.caption{
+    display: flex;
+    gap: 3rem;
+    margin-left: 3rem;
+}
